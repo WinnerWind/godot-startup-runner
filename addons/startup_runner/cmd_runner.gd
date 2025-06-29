@@ -2,7 +2,7 @@
 extends EditorPlugin
 
 # CHANGE THIS IF YOU WANT TO MOVE THE ADDON TO SOMEPLACE ELSE
-const commands_file_path:String = "res://addons/cmd_runner/command.txt"
+const commands_file_path:String = "res://addons/startup_runner/command.txt"
 
 func _enter_tree() -> void: #Also runs on editor start.
 	if not FileAccess.file_exists(commands_file_path): #Intercept the error with our own.
