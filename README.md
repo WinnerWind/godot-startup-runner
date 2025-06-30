@@ -10,12 +10,12 @@ A stupidly simple plugin that just runs a command when your project is started.
 
 ## Manual Install
 1. Download this repository with `git clone https://github.com/WinnerWind/godot-startup-runner`
-2. Move `/assets/startup_runner` to your project folder
+2. Move `/addons/startup_runner` to your project folder
 3. Done!
 
 # Usage
 1. Enable the plugin from `Project > Project Settings > Plugins`
-2. Define your commands in `/assets/startup_runner/command.txt`, with each command being on one line, for example:
+2. Define your commands in `/addons/startup_runner/command.txt`, with each command being on one line, for example:
 
 ```bash
 konsole -e lazygit --path /home/myuser/path
